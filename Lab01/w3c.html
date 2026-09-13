@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi primera pagina con estilo</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estándar W3C - PNG</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <h1>Mi primera página con estilo</h1>
+  <div class="layout-principal">
 
-  <p>¡Bienvenido a mi página personalizada!</p>
+    <!-- BLOQUE IZQUIERDO: Menú -->
+    <nav class="menu-lateral">
+      <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="author.html">Autor</a></li>
+        <li><a href="system.html">Ing. Sistemas</a></li>
+        <li><a href="w3c.html">Estándar W3C</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
 
-  <p>Aquí voy a aprender CSS paso a paso.</p>
+    <!-- BLOQUE DERECHO: Explicación exclusiva de PNG -->
+    <div class="tarjeta-derecha">
+      
+      <header>
+        <h1>Estándar W3C: PNG</h1>
+        <p><strong>Estudiante:</strong> Melanie Paredes Gonzales</p>
+      </header>
+
+      <hr>
+
+      <main>
+        <article>
+          <h2>El Formato PNG (Portable Network Graphics)</h2>
+          <p>PNG es un estándar recomendado por el W3C para la visualización de imágenes en la web. Fue creado como una alternativa abierta y sin patentes para reemplazar al formato GIF.</p>
+        </article>
+
+        <article>
+          <h2>Características del formato</h2>
+          <ul>
+            <li><strong>Compresión sin pérdida:</strong> Mantiene la calidad gráfica original sin importar cuántas veces se guarde el archivo.</li>
+            <li><strong>Soporte de transparencia:</strong> Permite utilizar canales de transparencia (alfa) para integrar logotipos e ilustraciones limpiamente sobre cualquier fondo.</li>
+            <li><strong>Optimizado para gráficos web:</strong> Ideal para imágenes con texto, bordes definidos e ilustraciones planas.</li>
+          </ul>
+        </article>
+
+      <footer>
+        <address>
+          Contacto: mparedesgo@unsa.edu.pe
+        </address>
+        <p>&copy; 2026 Todos los derechos reservados.</p>
+      </footer>
+
+    </div>
+
+  </div>
 
 </body>
 </html>

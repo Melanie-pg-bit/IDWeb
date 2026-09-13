@@ -1,4 +1,83 @@
+/* Fondo rosa palo */
 body {
-  background-color: #87ceeb; /* Celeste bonito y fresco */
-  color: #000000;            /* Letra totalmente negra */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7e8eb !important;
+  color: #222222;
+  margin: 0;
+  padding: 2.5em;
+}
+
+/* Contenedor que separa izquierda y derecha */
+.layout-principal {
+  display: flex;
+  gap: 2.5em;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* IZQUIERDA: Menú en cajita blanca */
+.menu-lateral {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 1.2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.navbar li {
+  padding: 0.7em 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+ul.navbar li:last-child {
+  border-bottom: none;
+}
+
+ul.navbar a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  display: block;
+}
+
+ul.navbar a:hover {
+  color: #d87093;
+}
+
+/* DERECHA: Cuadro blanco grande con todo */
+.tarjeta-derecha {
+  flex-grow: 1;
+  background-color: #ffffff;
+  padding: 2.5em;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+figure {
+  margin: 1.5em 0;
+}
+
+figure img {
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 2.5em;
+  padding-top: 1em;
+  border-top: 1px solid #eeeeee;
+  font-size: 0.9em;
+  color: #666666;
 }
